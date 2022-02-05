@@ -17,12 +17,6 @@ picker.addEventListener("change", event => {
   return pickedColor;
 });
 
-//adds event listener to the table
-tableRef.addEventListener("click", function(event){
-  //event.target = cell that was clicked
-  event.target.style.backgroundColor = pickedColor;
-});
-
 function makeGrid() {
   let tableHeight = document.getElementById('inputHeight').value;
   let tableWidth = document.getElementById('inputWidth').value;
@@ -35,6 +29,9 @@ function makeGrid() {
     const tr = document.createElement('tr');
     for (let col=0; col<tableWidth; col++){
       const td = document.createElement('td');
+      td.addEventListener("click", function(event){
+        event.target.style.backgroundColor = pickedColor;
+      });
       tr.append(td);
     }
     tableFrag.append(tr);
