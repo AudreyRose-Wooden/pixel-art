@@ -2,10 +2,14 @@
 
 ## Table of Contents
 
-* [Instructions](#instructions)
+* [Pixel Art](#art)
+* [Pixel 2048](#2048)
 
-## Instructions
+## Art
+* Purpose: practicing JavaScript event handling
+* Tools: JavaScript & HTML/CSS
 
-To get started, open `designs.js` and start building out the app's functionality.
-
-For specific, detailed instructions, look at the project instructions in the [Udacity Classroom](https://classroom.udacity.com/me).
+## 2048
+* not yet created
+* Purpose: practice game creation, event handling, UI, and algorithms
+* Tools to be used: JavaScript/React & HTML/CSS
